@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYFSnowAnimation"
-  s.version      = "1.0.7"
+  s.version      = "1.0.9"
   s.summary      = "A category of NSTimer for showing snow animaton,which is used very simply."
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "CoderXYF" => "2016003298@qq.com" }
   # Or just: s.author    = "CoderXYF"
-  # s.authors            = { "CoderCYF" => "2016003298@qq.com" }
+  # s.authors            = { "CoderXYF" => "2016003298@qq.com" }
   # s.social_media_url   = "http://twitter.com/CoderXYF"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XYFSnowAnimation/*"
-  s.exclude_files = "XYFSnowAnimation/Exclude"
+  s.source_files  = "XYFSnowAnimationDemo/*.{h,m}"
+  s.exclude_files = "XYFSnowAnimationDemo/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
