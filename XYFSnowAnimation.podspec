@@ -6,7 +6,7 @@ s.summary      = "A category of NSTimer for showing snow animaton,which is used 
 s.homepage     = "https://github.com/CoderXYF/XYFSnowAnimation"
 s.license      = "MIT"
 s.author             = { "CoderXYF" => "2016003298@qq.com" }
-s.platform     = :ios, "7.0"
+s.platform     = :ios, "10.0"
 s.source       = { :git => "https://github.com/CoderXYF/XYFSnowAnimation.git", :tag => "1.0.0" }
 s.source_files  = "XYFSnowAnimation/*.{h,m}"
 s.frameworks = "UIKit", "Foundation"
