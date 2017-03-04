@@ -13,7 +13,7 @@
 		001313931E3E9D1B001FC573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001313911E3E9D1B001FC573 /* Main.storyboard */; };
 		001313951E3E9D1B001FC573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001313941E3E9D1B001FC573 /* Assets.xcassets */; };
 		001313981E3E9D1B001FC573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001313961E3E9D1B001FC573 /* LaunchScreen.storyboard */; };
-		001313A21E3E9D31001FC573 /* NSTimer+snow.m in Sources */ = {isa = PBXBuildFile; fileRef = 001313A11E3E9D31001FC573 /* NSTimer+snow.m */; };
+		001313A21E3E9D31001FC573 /* NSTimer+Snow.m in Sources */ = {isa = PBXBuildFile; fileRef = 001313A11E3E9D31001FC573 /* NSTimer+Snow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		001313941E3E9D1B001FC573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001313971E3E9D1B001FC573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		001313991E3E9D1B001FC573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		001313A01E3E9D31001FC573 /* NSTimer+snow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+snow.h"; sourceTree = "<group>"; };
-		001313A11E3E9D31001FC573 /* NSTimer+snow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+snow.m"; sourceTree = "<group>"; };
+		001313A01E3E9D31001FC573 /* NSTimer+Snow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Snow.h"; sourceTree = "<group>"; };
+		001313A11E3E9D31001FC573 /* NSTimer+Snow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Snow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		0013139F1E3E9D31001FC573 /* XYFSnowAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				001313A01E3E9D31001FC573 /* NSTimer+snow.h */,
-				001313A11E3E9D31001FC573 /* NSTimer+snow.m */,
+				001313A01E3E9D31001FC573 /* NSTimer+Snow.h */,
+				001313A11E3E9D31001FC573 /* NSTimer+Snow.m */,
 			);
 			path = XYFSnowAnimation;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				001313901E3E9D1B001FC573 /* ViewController.m in Sources */,
-				001313A21E3E9D31001FC573 /* NSTimer+snow.m in Sources */,
+				001313A21E3E9D31001FC573 /* NSTimer+Snow.m in Sources */,
 				0013138D1E3E9D1B001FC573 /* AppDelegate.m in Sources */,
 				0013138A1E3E9D1B001FC573 /* main.m in Sources */,
 			);
@@ -321,6 +321,7 @@
 				0013139E1E3E9D1B001FC573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

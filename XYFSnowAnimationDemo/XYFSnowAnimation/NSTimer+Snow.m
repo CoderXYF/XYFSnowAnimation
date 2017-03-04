@@ -1,19 +1,19 @@
 //
-//  NSTimer+snow.m
+//  NSTimer+Snow.m
 //  XYFSnowAnimationExample
 //
 //  Created by xyf on 2017/1/30.
 //  Copyright © 2017年 XYF. All rights reserved.
 //
 
-#import "NSTimer+snow.h"
+#import "NSTimer+Snow.h"
 
 #define screenW [UIScreen mainScreen].bounds.size.width
 #define screenH [UIScreen mainScreen].bounds.size.height
 static const CGFloat interval = 0.01f;
 static const CGFloat duration = 8.0f;
 
-@implementation NSTimer (snow)
+@implementation NSTimer (Snow)
 
 + (instancetype)timerWithSnowAnimationInView:(UIView *)view {
     //让背景图不变形且填充

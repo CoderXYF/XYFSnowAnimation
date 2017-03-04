@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSTimer+snow.h"
+#import "NSTimer+Snow.h"
 
 @interface ViewController ()
 

@@ -1,5 +1,5 @@
 //
-//  NSTimer+snow.h
+//  NSTimer+Snow.h
 //  XYFSnowAnimationExample
 //
 //  Created by xyf on 2017/1/30.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSTimer (snow)
+@interface NSTimer (Snow)
 
 + (instancetype)timerWithSnowAnimationInView:(UIView *)view;
 
