@@ -1,5 +1,5 @@
 # XYFSnowAnimation
-A category of NSTimer for showing snow animaton,which is used very simply.  
+A category of NSTimer for showing snow animaton,which is used very simply.下雪动画，定时器分类  
 
 Installation
 ==============
