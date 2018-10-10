@@ -1,5 +1,5 @@
 # XYFSnowAnimation
-A category of NSTimer for showing snow animaton,which is used very simply.下雪动画，定时器分类  
+A category of NSTimer for showing 3D Fluttered animation, which is used very simply.3D三维飘落下雪落花动画，性能安全，定时器NSTimer分类，直接使用，很简单  
 
 Installation
 ==============
