@@ -8,13 +8,13 @@ Installation
 
 1. Add `pod 'XYFSnowAnimation'` to your Podfile.
 2. Run `pod install` or `pod update`.
-3. Import \<NSTimer+Snow.h\>.
+3. Import \<NSTimer+XYFSnowAnimation.h\>.
 
 ### Manually
 
 1. Download XYFSnowAnimation and find XYFSnowAnimationDemo/XYFSnowAnimation finder.
 2. Add the source files to your Xcode project.
-3. Import `NSTimer+Snow.h`.
+3. Import `NSTimer+XYFSnowAnimation.h`.
 
 Requirements
 ==============
@@ -31,13 +31,13 @@ XYFSnowAnimation is provided under the MIT license. See LICENSE file for details
 
 1. 在 Podfile 中添加 `pod 'XYFSnowAnimation'`。
 2. 执行 `pod install` 或 `pod update`。
-3. 导入 \<NSTimer+Snow.h\>。
+3. 导入 \<NSTimer+XYFSnowAnimation.h\>。
 
 ### 手动安装
 
 1. 下载 XYFSnowAnimation 并找到 XYFSnowAnimationDemo/XYFSnowAnimation 文件夹。
 2. 将 XYFSnowAnimation 内的源文件添加(拖放)到你的工程。
-3. 导入 `NSTimer+Snow.h`。
+3. 导入 `NSTimer+XYFSnowAnimation.h`。
 
 系统要求
 ==============
