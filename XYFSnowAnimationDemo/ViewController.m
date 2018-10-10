@@ -7,11 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "NSTimer+Snow.h"
+#import "SnowAnimationViewController.h"
+#import "FlowerAnimationViewController.h"
 
 @interface ViewController ()
-
-@property (nonatomic, weak) NSTimer *snowTimer;
 
 @end
 
@@ -19,12 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.snowTimer = [NSTimer timerWithSnowAnimationInView:self.view];
 }
 
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    [self.snowTimer invalidate];
+- (IBAction)jumpToSnowAnimationPage {
+    SnowAnimationViewController *snowAnimationVC = [[SnowAnimationViewController alloc] init];
+    [self.navigationController pushViewController:snowAnimationVC animated:YES];
+}
+
+- (IBAction)jumpToFlowerAnimationPage {
+    FlowerAnimationViewController *flowerAnimationVC = [[FlowerAnimationViewController alloc] init];
+    [self.navigationController pushViewController:flowerAnimationVC animated:YES];
 }
 
 @end
