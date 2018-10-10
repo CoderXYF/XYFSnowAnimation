@@ -18,7 +18,7 @@ Installation
 
 Requirements
 ==============
-This library requires `iOS 7.0+`.
+This library requires `iOS 8.0+`.
 
 License
 ==============
@@ -41,7 +41,7 @@ XYFSnowAnimation is provided under the MIT license. See LICENSE file for details
 
 系统要求
 ==============
-该工具最低支持 `iOS 7.0`。
+该工具最低支持 `iOS 8.0`。
 
 许可证
 ==============
