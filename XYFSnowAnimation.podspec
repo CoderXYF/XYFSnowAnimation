@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.name         = "XYFSnowAnimation"
 
-s.version      = "2.0.0"
+s.version      = "2.0.1"
 
 s.ios.deployment_target = '8.0'
 
@@ -14,7 +14,7 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "CoderXYF" => "https://github.com/CoderXYF" }
 
-s.source = { :git => "https://github.com/CoderXYF/XYFSnowAnimation.git", :tag => "2.0.0" }
+s.source = { :git => "https://github.com/CoderXYF/XYFSnowAnimation.git", :tag => "2.0.1" }
 
 s.source_files  = "XYFSnowAnimationDemo/XYFSnowAnimation/*.{h,m}"
 
