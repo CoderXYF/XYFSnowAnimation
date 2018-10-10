@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param filePath 背景音乐文件本地路径
  @return 持续执行动画的定时器
  */
-+ (NSTimer *)timerWithSnowAnimationInView:(UIView *)view backgroundImage:(UIImage *)backgroundImage snowImage:(UIImage *)snowImage BGMFilePath:(NSString *)filePath;
++ (NSTimer *)timerWithSnowAnimationInView:(nullable UIView *)view backgroundImage:(nullable UIImage *)backgroundImage snowImage:(nullable UIImage *)snowImage BGMFilePath:(nullable NSString *)filePath;
 
 /**
  移除动画

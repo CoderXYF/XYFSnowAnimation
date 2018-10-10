@@ -22,7 +22,7 @@ static UIView *animationView = nil;
 
 static CGFloat currentContainerViewHeight = 0;
 
-+ (NSTimer *)timerWithSnowAnimationInView:(UIView *)view backgroundImage:(UIImage *)backgroundImage snowImage:(UIImage *)snowImage BGMFilePath:(NSString *)filePath {
++ (NSTimer *)timerWithSnowAnimationInView:(nullable UIView *)view backgroundImage:(nullable UIImage *)backgroundImage snowImage:(nullable UIImage *)snowImage BGMFilePath:(nullable NSString *)filePath {
     // 当前容器视图宽度
     CGFloat currentContainerViewWidth = view.bounds.size.width;
     currentContainerViewHeight = view.bounds.size.height;
