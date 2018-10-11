@@ -1,5 +1,20 @@
 # XYFSnowAnimation
 A category of NSTimer for showing 3D Fluttered animation, which is used very simply.3D三维飘落下雪落花动画，性能安全，定时器NSTimer分类，直接使用，很简单  
+  
+  Usage
+==============
+
+### Add snow animation
+```objc
+// Snow
+    [NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"snow_bg"] snowImage:[UIImage imageNamed:@"snow"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"snow_bgm" ofType:@"mp3"]]
+// Falling flower:
+    [NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"flower_bg"] snowImage:[UIImage imageNamed:@"flower"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"flower_bgm" ofType:@"mp3"]];
+```  
+### remove snow animation
+```objc
+    [NSTimer removeSnowAnimation];
+```
 
 Installation
 ==============
