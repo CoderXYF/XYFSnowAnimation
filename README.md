@@ -4,16 +4,16 @@ A category of NSTimer for showing 3D Fluttered animation, which is used very sim
   Usage
 ==============
 
-### Add snow animation
+### Add snow(Falling flower) animation
 ```objc
 // Snow
-    [NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"snow_bg"] snowImage:[UIImage imageNamed:@"snow"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"snow_bgm" ofType:@"mp3"]]
+[NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"snow_bg"] snowImage:[UIImage imageNamed:@"snow"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"snow_bgm" ofType:@"mp3"]]
 // Falling flower:
-    [NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"flower_bg"] snowImage:[UIImage imageNamed:@"flower"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"flower_bgm" ofType:@"mp3"]];
+[NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"flower_bg"] snowImage:[UIImage imageNamed:@"flower"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"flower_bgm" ofType:@"mp3"]];
 ```  
-### remove snow animation
+### remove snow(Falling flower) animation
 ```objc
-    [NSTimer removeSnowAnimation];
+[NSTimer removeSnowAnimation];
 ```
 
 Installation
@@ -38,6 +38,21 @@ This library requires `iOS 8.0+`.
 License
 ==============
 XYFSnowAnimation is provided under the MIT license. See LICENSE file for details.  
+
+  使用
+==============
+
+### 添加下雪（落花）动画
+```objc
+// 下雪
+[NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"snow_bg"] snowImage:[UIImage imageNamed:@"snow"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"snow_bgm" ofType:@"mp3"]]
+// 落花:
+[NSTimer timerWithSnowAnimationInView:self.view backgroundImage:[UIImage imageNamed:@"flower_bg"] snowImage:[UIImage imageNamed:@"flower"] BGMFilePath:[[NSBundle mainBundle] pathForResource:@"flower_bgm" ofType:@"mp3"]];
+```  
+### 移除下雪（落花）动画
+```objc
+[NSTimer removeSnowAnimation];
+```
 
 安装
 ==============
