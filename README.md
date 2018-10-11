@@ -50,5 +50,5 @@ XYFSnowAnimation 使用 MIT 许可证，详情见 LICENSE 文件。
 ![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/snow.gif)　　![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/fallingFlower.gif)  
 
 # Contact me (联系我)  
-QQ：2016003298
+QQ：2016003298  
 微信（WeChat）：yz33915958
