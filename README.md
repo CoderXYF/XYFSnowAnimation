@@ -1,5 +1,5 @@
 # XYFSnowAnimation
-A category of NSTimer for showing 3D Fluttered animation for iOS, which is used very simply. Lightweight CALayer animation, core animation, 3D transform, performance safety. iOS 3D三维飘落下雪落花动画，轻量级CALayer图层动画，核心动画，3D形变，性能安全，定时器NSTimer分类，直接使用，很简单 
+A category of NSTimer for showing 3D Fluttered animation for iOS, which is used very simply. Lightweight CALayer animation, core animation, 3D transform, performance safety. 
   
   Usage
 ==============
@@ -38,6 +38,12 @@ This library requires `iOS 8.0+`.
 License
 ==============
 XYFSnowAnimation is provided under the MIT license. See LICENSE file for details.  
+
+<br/><br/>
+---
+中文介绍
+==============
+iOS 3D三维飘落下雪落花动画，轻量级CALayer图层动画，核心动画，3D形变，性能安全，定时器NSTimer分类，直接使用，很简单 。<br/>
 
   使用
 ==============
