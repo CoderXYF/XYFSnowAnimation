@@ -47,4 +47,6 @@ XYFSnowAnimation is provided under the MIT license. See LICENSE file for details
 ==============
 XYFSnowAnimation 使用 MIT 许可证，详情见 LICENSE 文件。 
 # Preview:
-![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/snow.gif)      ![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/fallingFlower.gif)
+![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/snow.gif)  
+
+![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/fallingFlower.gif)
