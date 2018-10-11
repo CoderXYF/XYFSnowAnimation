@@ -84,7 +84,7 @@ iOS 3D三维飘落下雪落花动画，轻量级CALayer图层动画，核心动�
 XYFSnowAnimation 使用 MIT 许可证，详情见 LICENSE 文件。 
 # Preview（预览效果动态图）:
 ![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/snow.gif)　　![img](https://github.com/CoderXYF/XYFSnowAnimation/blob/master/previewEffectGIFImage/fallingFlower.gif)  
-tip（提示）：It may need to load for a while to show dynamic effect.可能需要加载一会才能看到动态效果。
+Tip（提示）：It may need to load for a while to show dynamic effect.可能需要加载一会才能看到动态效果。
 # Contact me (联系我)  
 QQ：2016003298  
 微信（WeChat）：yz33915958
